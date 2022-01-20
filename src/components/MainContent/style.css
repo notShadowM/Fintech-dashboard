@@ -1,0 +1,205 @@
+.mainContainer{
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  padding: 26px 36px;
+}
+
+.greetings{
+  font-family: Montserrat;
+  font-size: 18px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 22px;
+  letter-spacing: 0em;
+  text-align: left;
+  color: #FFA14E;
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  margin-bottom: 20px;
+}
+
+.earning{
+  font-family: Montserrat;
+  font-size: 24px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 29px;
+  letter-spacing: 0em;
+  text-align: left;
+  color: #1F1F1F;
+}
+
+.chart{
+  margin-top: 50px;
+  padding-left: 20px;
+  /* margin-left: 20px; */
+  border: 1px solid #F2F2F2;
+  border-radius: 40px;
+}
+
+.lastRow{
+  margin-top: 40px;
+  display: flex;
+  justify-content: space-between;
+}
+
+.circleChart{
+  flex-basis: 45%;
+  border: 1px solid #F2F2F2;
+  border-radius: 40px;
+  padding: 20px;
+}
+
+.pie{
+  position: relative;
+}
+
+.percent{
+  font-family: Montserrat;
+  font-size: 30px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 22px;
+  letter-spacing: 0em;
+  text-align: center;
+  position: absolute;
+  top: 46%;
+  right: 40%;
+  color: #89B27C;
+}
+
+.numbers{
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.oneBox{
+  display: flex;
+  flex-direction: column;
+  gap: 5px;
+  align-items: center;
+}
+
+.oneNumber{
+  font-family: Montserrat;
+  font-size: 32px;
+  font-style: normal;
+  font-weight: 600;
+  line-height: 39px;
+  letter-spacing: 0em;
+  text-align: left;
+  color: #333333;
+  display: flex;
+  gap: 10px;
+  align-items: center;
+}
+
+.smallBox{
+  width: 25px;
+  height: 25px;
+  
+  background: #DFEEDB;
+  border-radius: 8px;
+}
+
+.greeBox{
+  background: #A6D997;
+}
+
+.successful{
+  font-family: Montserrat;
+  font-size: 14px;
+  font-style: normal;
+  font-weight: 600;
+  line-height: 15px;
+  letter-spacing: 0em;
+  text-align: left;
+  color: #828282;
+}
+
+.errorsChart{
+  flex-basis: 45%;
+  border: 1px solid #F2F2F2;
+  border-radius: 40px;
+  padding: 20px;
+  margin-top: 20px;
+}
+
+.errorsTitle{
+  font-family: Montserrat;
+  font-size: 14px;
+  font-style: normal;
+  font-weight: 600;
+  line-height: 17px;
+  letter-spacing: 0em;
+  text-align: left;
+  color: #FFA14E;
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  margin-top: 15px;
+}
+
+.errorsNumber{
+  font-family: Montserrat;
+  font-size: 18px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 22px;
+  letter-spacing: 0em;
+  text-align: left;
+}
+
+.errorsList{
+  display: flex;
+  flex-direction: column;
+  gap: 12px;
+  margin-top: 20px;
+}
+
+.oneError{
+  display: flex;
+  align-items: center;
+  gap: 20px;
+}
+
+.icon{
+  width: 22px;
+  height: 22px;
+  font-size: 12px;
+  border-radius: 8px;
+  color:#fff;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.firstColor{
+  background: #FFBB4F;
+}
+
+.secColor{
+  background: #FFDA93;
+}
+
+.thirdColor{
+  background: #FF7576;
+}
+
+.forthColor{
+  background: #80E0E5;
+}
+
+.desc{
+  font-family: Montserrat;
+  font-size: 12px;
+  font-style: normal;
+  font-weight: 600;
+  line-height: 15px;
+  letter-spacing: 0em;
+  text-align: left;
+  color: #828282;
+}
