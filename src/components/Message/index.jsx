@@ -1,12 +1,12 @@
-import React from 'react'
-import "./style.css"
-import { useSelector, useDispatch } from 'react-redux'
+import React from 'react';
+import './style.css';
+import { useSelector } from 'react-redux';
 
 export default function Message() {
-  const messages = useSelector((state) =>state.user.messages)
+  const messages = useSelector((state) => state.user.messages);
 
   return (
-    <div className='msgContainer'>
+    <div className="msgContainer">
       <div className="msgTitles">
         <div className="msgTitle">
           Stats
@@ -15,11 +15,11 @@ export default function Message() {
           Messages
         </div>
       </div>
-      {messages.map(msg =>
+      {messages.map((msg) => (
         <div className="cards">
           <div className="card">
             <div className="cardFirstRow">
-              <div className="cardUserImg" style={{background:msg.avatar}}></div>
+              <div className="cardUserImg" style={{ background: msg.avatar }} />
               <div className="cardDate">{msg.date}</div>
             </div>
             <div className="cardTexts">
@@ -31,9 +31,9 @@ export default function Message() {
               </div>
             </div>
           </div>
-      
+
         </div>
-        )}
+      ))}
     </div>
-  )
+  );
 }

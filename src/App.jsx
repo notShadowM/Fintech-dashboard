@@ -1,3 +1,4 @@
+import React from 'react';
 import './App.css';
 import SideNav from './components/SideNav';
 import Heading from './components/Heading';
@@ -6,7 +7,7 @@ import Message from './components/Message';
 
 function App() {
   return (
-    <div className='container'>
+    <div className="container">
       <SideNav />
       <Heading />
       <div className="rightSide">

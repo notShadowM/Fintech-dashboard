@@ -4,11 +4,16 @@
   display: flex;
   gap: 44px;
   align-items: center;
+  /* background-color: #828282; */
   /* position: absolute; */
+}
+.textbox{
+  position: relative;
+  flex-basis: 34%;
 }
 
 .searchInput{
-  width: 420px;
+  width: 100%;
   height: 56px;
   background: #FCFCFC;
   border-radius: 50px;
@@ -28,9 +33,7 @@ input.searchInput::placeholder{
   color: #BBBBBB;
 }
 
-.textbox{
-  position: relative;
-}
+
 
 .searchIcon{
   position: absolute;
@@ -50,7 +53,8 @@ input.searchInput::placeholder{
 }
 
 .language{
-  width: 170px;
+  /* width: 170px; */
+  flex-basis: 15%;
   height: 56px;
   border-radius: 50px;
   font-family: Montserrat;
@@ -80,7 +84,8 @@ input.searchInput::placeholder{
 }
 
 .userBox{
-  width: 250px;
+  /* width: 250px; */
+  flex-basis: 20%;
   height: 56px;
   display: flex;
   align-items: center;
